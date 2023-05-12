@@ -12,15 +12,14 @@ body {
 
 .titulo {
     color: #ffffff;
-}
-
-h1 {
     padding: 0px;
 }
 
+
 h2 {
     margin-top: 5px;
-    padding-bottom: 13px;
+    padding: 20px;
+    text-align: center;
 }
 
 .inputContainer, .outputContainer {
@@ -65,25 +64,30 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 p {
-    font-size: 4em;
+    font-size: 2.5em;
+    margin: 0px;
 }
 
-div {
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 @keyframes seta {
     from {
-        top: -30px;
+        top: 30px;
     }
     to {
-        top: -50px;
+        top: 50px;
     }
 }
 
 p::after {
-    content: '☝';
+    content: '👇';
     position: relative;
     top: 10px;
     right: 0px;
