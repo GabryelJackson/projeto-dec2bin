@@ -79,10 +79,10 @@ p {
 
 @keyframes seta {
     from {
-        top: 30px;
+        top: 20px;
     }
     to {
-        top: 50px;
+        top: 30px;
     }
 }
 
